@@ -8,8 +8,6 @@ sudo apt upgrade -y
 # ------------------ Install Essentials ------------------
 # install basic packages
 sudo apt install -y build-essential curl git unzip vim vim-gui-common
-# Note: 
-echo "NOTE:: Add 'syntax on' to ~/.vimrc to enable syntax. -----"
 
 # ------------------ Firewall & Security ------------------
 # install and configure firewall (ufw)
@@ -44,3 +42,7 @@ sudo apt autoremove -y
 sudo apt clean
 
 echo "Basic Setup Done..."
+# Note: 
+echo "---------------------+++++++ NOTE +++++++------------------------------"
+echo "VIM:: Add 'syntax on' to ~/.vimrc to enable syntax."
+echo "------------------+++++++ NOTE :END +++++++----------------------------"
